@@ -4,7 +4,9 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-sitedevelopments.net - is a blog about Automation, Linux, Development and a Lot more.
+## sitedevelopments.net 
+
+- is a blog about Automation, Linux, Development and a Lot more.
 
 ## About me
 
