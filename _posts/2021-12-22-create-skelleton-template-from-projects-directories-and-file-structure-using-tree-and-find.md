@@ -11,15 +11,15 @@ tags:
   - skelleton
   - template
 summary: "Your customer has requested your help to create a direcory and files template of an existing project.
- Customer wants the directory structure and file names to be the same but do not want any of the file content to be present they just want the skelleton template of the project stucture. To solve this we need to create two files one with the directory stucture and one file with the files."  
+ Customer wants the directory structure and file names to be the same but do not want any of the file content to be present they just want the skelleton template of the project stucture. To solve this we need to create two files, One that contains the directory stucture and one file that contains the filenames of the files in the project."  
 ---
 
 ## Example Use case
 
-Your customer has requested your help to create a direcory and files skelleton template structure of an existing project.
+Your customer has requested your help to create, a direcory and files skelleton template structure of an existing project.
 Customer wants the directory structure and file names to be the same but do not want any of the file content to be present they just want the skelleton template of the project stucture.
 
-To solve this we need to create two files one that contains the directory stucture and one file that contains the filenames that needs to be created. We solve this using the tree command. First we create the file that are only listing the directory structure.
+To solve this we need to create two files. One that contains the directory stucture and one file that contains the filenames of the files in the project. We solve this using the tree command. First we create the file that are only listing the directory structure.
 
 ### Project requirements
 
@@ -41,9 +41,13 @@ The customer wants us to create a skelleton template of the project **install_te
 
 ### Output folder
 
-The customer wants us to put the generated text files in
+The customer wants us to put the generated text files in a directory called output that are located in the current users home directory.
 <br>
 `~/output`
+
+### Project Template
+
+`~/skelleton_project_templates`
 
 ### Project naming standard
 
@@ -61,7 +65,7 @@ Based on the naming standard that the client has set we will create the followin
 <br>
 `project_install_terraform_dir.txt` - filename for the directory structure 
 <br> 
-`project_install_terraform_files_.txt` - filename for the project files
+`project_install_terraform_files.txt` - filename for the project files
 
 Now when we have the projects requirements set, we can start to create it.
 
