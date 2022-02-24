@@ -173,3 +173,7 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+#relative_links:
+#  enabled: true
+#  collections: true
